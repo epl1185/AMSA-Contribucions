@@ -13,10 +13,6 @@ website:
     left:
       - text: "Inici"
         href: index.qmd
-      - text: "Temari"
-        menu:
-          - text : "Unitat 1 · Fonaments de l'Administració de Sistemes"
-            href: modules/unit-01-fonaments/index.qmd
       - text: "Guia docent"
         href: https://guiadocent.udl.cat/html/2026-27_105013
       
@@ -67,6 +63,24 @@ website:
                 - modules/unit-02-arrancada/pralabs/03_arrencada.qmd
                 - modules/unit-02-arrancada/pralabs/04_arrencada.qmd
                 - modules/unit-02-arrancada/pralabs/05_arrencada.qmd
+        - section: "Unitat 3 · Emmagatzematge"
+          contents: 
+            - section: Teoria
+              contents:
+                - modules/unit-03-storage/theory/01-raids.qmd
+                - modules/unit-03-storage/theory/02-lvm.qmd
+            - section: "Activitats"
+              contents:
+                - modules/unit-03-storage/activities/02-lvm.qmd
+            - section: Pralabs
+              contents:
+                - modules/unit-03-storage/pralabs/02-lvm.qmd
+    - section: "Exàmens"
+      contents:
+        - section: "Competencials"
+          contents:
+            - exams/practics/practic1/s1/enu.qmd
+            - exams/practics/practic1/s2/enu.qmd
 
 
 
